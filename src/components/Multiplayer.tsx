@@ -1,5 +1,5 @@
 export default function Multiplayer() {
-    return (
-        <div id="multiplayer"></div>
-    );
+  return (
+    <div id="multiplayer"></div>
+  );
 } 
