@@ -4,7 +4,7 @@ import DeckCell from './DeckCell';
 import { useEffect, useState } from "react";
 import getDeck from '../../remote/getDeck';
 
-export default function Deck({ klass, cards, player, played, chosenCard, func, saveDeck, deck, deckName, decks, setDeck, setDeckName, setDecks }) {
+export default function Deck({ klass, cards, player, chosenCard, played, func, saveDeck, deck, deckName, decks, setDeck, setDeckName, setDecks }) {
 
   const getDecks = async () => {
     const response = await getDeck();
